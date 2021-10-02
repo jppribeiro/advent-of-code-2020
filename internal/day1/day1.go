@@ -1,13 +1,12 @@
 package day1
 
 import (
-	utils "aoc-2020/utils"
-
+	"aoc-2020/internal/utils"
 	"fmt"
 )
 
 func Solution() {
-	lines := utils.ReadIntInput("day1/input1")
+	lines := utils.ReadIntInput("internal/day1/input1")
 
 	res1, err := calcTwoNum(&lines)
 	if err != nil {

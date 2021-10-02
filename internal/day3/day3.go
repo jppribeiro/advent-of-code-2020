@@ -1,13 +1,13 @@
 package day3
 
 import (
-	"aoc-2020/utils"
+	"aoc-2020/internal/utils"
 	"fmt"
 	"strings"
 )
 
 func Solution() {
-	lines := utils.ReadInput("day3/input3")
+	lines := utils.ReadInput("internal/day3/input3")
 
 	var travelMap [][]string
 

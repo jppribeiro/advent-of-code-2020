@@ -1,7 +1,7 @@
 package day2
 
 import (
-	"aoc-2020/utils"
+	"aoc-2020/internal/utils"
 	"fmt"
 	"strconv"
 	"strings"
@@ -15,7 +15,7 @@ type dbEntry struct {
 }
 
 func Solution() {
-	lines := utils.ReadInput("day2/input2")
+	lines := utils.ReadInput("internal/day2/input2")
 
 	numValidA := 0
 	numValidB := 0
