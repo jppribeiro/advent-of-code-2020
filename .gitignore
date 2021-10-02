@@ -144,4 +144,6 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+aoc-2020
+go_build_aoc_2020
 # End of https://www.toptal.com/developers/gitignore/api/go,macos,intellij+all
