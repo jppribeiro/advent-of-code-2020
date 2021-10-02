@@ -32,7 +32,10 @@ func Solution() {
 		}
 	}
 
+	fmt.Println(":: Part 1 ::")
 	fmt.Printf("There are %d invalid passwords according to the sled rental criteria\n", numValidA)
+
+	fmt.Println("\n:: Part 2 ::")
 	fmt.Printf("There are %d invalid passwords according to the Toboggan Corporate criteria\n", numValidB)
 }
 

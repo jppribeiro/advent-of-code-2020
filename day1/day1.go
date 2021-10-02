@@ -18,8 +18,10 @@ func Solution() {
 	if err != nil {
 		fmt.Println("error on solution 1")
 	}
-
+	fmt.Println(":: Part 1 ::")
 	fmt.Printf("Day 1a solution: %d\n", res1)
+
+	fmt.Println("\n:: Part 2 ::")
 	fmt.Printf("Day 1b solution: %d\n", res2)
 
 }
