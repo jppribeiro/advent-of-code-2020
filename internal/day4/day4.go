@@ -174,7 +174,6 @@ func checkValidB(passports []string) int {
 
 			// No need to check more fields when one is not valid
 			if !isValid {
-				fmt.Printf("%s is not valid %s for field %s\n", key, strings.Split(field, ":")[1], field)
 				break
 			}
 		}
